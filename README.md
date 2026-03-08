@@ -1,31 +1,42 @@
-# pyransome_demo
+# 🔐 pyransome_demo
 
-pyransome_demo is a demo script which uses cryptography to encrypt and decrypt files with python.
+A demo ransomware script built with Python for educational purposes. Encrypts and decrypts files using symmetric key cryptography.
 
-** All required test files included in the repository so there is no need of testing with your local storage...As it is dangerous.
+> ⚠️ **For educational use only.** Do not run on your own files or any system without permission.
 
-<br>
+---
 
-Requirements
-```
+## 📁 Files
+
+| File | Description |
+|---|---|
+| `thanos.py` | Encrypts the test files |
+| `ironman_dec.py` | Decrypts them back |
+| `testfile1.txt`, `testfile2.txt`, `heydonthurtmeplz.txt` | Test files included — no need to use your own |
+
+---
+
+## ⚙️ Setup
+
+```bash
 pip install cryptography
 ```
-<br>
 
-Encryption
-```
+## 🚀 Usage
+
+```bash
+# Encrypt
 python3 thanos.py
-```
-<br>
 
-Decryption
-```
+# Check encrypted content
+cat *.txt
+
+# Decrypt
 python3 ironman_dec.py
 ```
-<br>
 
-3 Text files included in the repository for testing perposes. After Encryption or Decryption process you can check the content inside those files.
+---
 
-```
-cat *.txt
-```
+## 👨‍💻 Author
+
+**Shehan Sulakshana** — [GitHub](https://github.com/ShehanSulakshana)
